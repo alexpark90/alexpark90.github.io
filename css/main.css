@@ -208,10 +208,10 @@ footer {
     }
     
     .aboutMe-page-banner {
-        background-image: url('../images/background_about.jpg');
+        background-image: url('../images/background_about.png');
     }
     .contact-page-banner {
-        background-image: url('../images/background_contact.jpg');
+        background-image: url('../images/background_contact.png');
     }
     
     .contact-icon img { 
