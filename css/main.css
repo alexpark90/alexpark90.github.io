@@ -3,7 +3,7 @@
 
     Author : Alex Park
     Created : Sep. 01. 2015
-    Updated : Oct. 02. 2015
+    Updated : Oct. 07. 2015
 
 **/
 
@@ -110,8 +110,8 @@ header {
 
 .index-page-main .container {
     width: 100%;
-    height: 100vh;
-    min-height: 500px;
+    height: auto;
+    min-height: 100vh;
     margin: 0;
     padding-top: 8%;
     padding-bottom: 8%;
