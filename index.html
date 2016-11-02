@@ -38,8 +38,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Work</a>
                         <ul class="dropdown-menu dropdown-menu-left">
                             <li><a href="#java" id="toJava">Java</a></li>
-                            <li><a href="#php-js" id="toPhpJs">PHP / JavaScript</a></li>
-                            <li><a href="#android" id="toAndroid">Android</a></li>
+                            <li><a href="#webApp" id="toWebApp">Web Application</a></li>
+                            <li><a href="#mobile" id="toMobile">Android / iOS</a></li>
                         </ul>
                     </li>
                     <li><a href="./resume_online.pdf">Resume</a></li>
@@ -112,11 +112,11 @@
                 </div>
             </div>
             
-            <!-- PHP/JavaScript section -->
-            <div id="php-js" class="container">
+            <!-- Web Application section -->
+            <div id="webApp" class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
-                        <h1>PHP / JavaScript</h1>
+                        <h1>Web Application</h1>
                     </div>
                 </div>
                 <br />
@@ -128,7 +128,7 @@
                                 <a href="https://baseballnumbergame.azurewebsites.net" target="_blank">
                                     <dl>
                                         <dt>Baseball Number-Guessing Game</dt>
-                                        <dd>Timer, input validation using javaScript, encrypted login system using php.</dd>
+                                        <dd>Timer and input validation using javaScript, encrypted login system using php.</dd>
                                     </dl>
                                 </a>
                             </li>
@@ -153,11 +153,11 @@
                 </div>
             </div>
             
-            <!-- Android section -->
-            <div id="android" class="container">
+            <!-- Mobile section -->
+            <div id="mobile" class="container">
                 <div class="row">
                     <div class="col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
-                        <h1>Android</h1>
+                        <h1>Android / iOS</h1>
                     </div>
                 </div>
                 <br />
@@ -193,7 +193,7 @@
             <div class="col-md-12">
                 <address>
                     <p><strong>Alex Yeji Park</strong></p>
-                    <p>GTA, ON, Canada</p>
+                    <p>Toronto, ON, Canada</p>
                     <a href="mailto:alexpark90@hotmail.com">alexpark90@hotmail.com</a>
                 </address>
             </div>
@@ -215,7 +215,7 @@
                 $(document).ready(function() 
                 {
                         // smooth scroll
-                        $('#toJava,#toPhpJs,#toAndroid,#toTop').click(function(event) 
+                        $('#toJava,#toWebApp,#toMobile,#toTop').click(function(event) 
                         {
                                 var id = $(this).attr("href");
                                 var target = $(id).offset().top;
